@@ -82,8 +82,6 @@ Check out the project [here](https://sumansourabh.netlify.app/ "Suman Sourabh")
 
 <img src="./src/Images/Portfolio-large-screen.jpeg">
 
-<br>
-
 ## What is this project about?
 
 This website is a portfolio of Suman Sourabh (myself), an aspiring frontend web developer based in India.
@@ -113,13 +111,9 @@ This is a completely responsive one-page website that also uses the flexbox and 
 
 ## Screenshots
 
-<br>
-
 * Portfolio website on smaller screens
 
 <img src="./src/Images/Portfolio-small-screen.jpeg">
-
-<br>
 
 ## Helpful Links
 
