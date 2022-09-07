@@ -1,6 +1,7 @@
 import img1 from './Images/Movies-&-TV-website-ss1.png';
 import img2 from './Images/music-app-random.png';
-import img3 from './Images/Landing-Page-Project-1.png';
+// import img3 from './Images/Landing-Page-Project-1.png';
+import img4 from './Images/random-advice-generator-v1.png';
 import { faCss3Alt, faFigma, faGitAlt, faHtml5, faJs, faMarkdown, faReact, faSass, faWordpress } from '@fortawesome/free-brands-svg-icons';
 
 const aboutMe = [
@@ -82,7 +83,7 @@ const projects = [
         alt: "Movies and TV Show website home page",
         projectName: "Movies & TV Show Website with API",
         technologies: "JavaScript, HTML, CSS",
-        description: "Used the concept of Fetch API in JavaScript to develop and design website listing movies and TV shows.",
+        description: "A website that uses the TMDB API to fetch all the movies and TV series on the basis of multiple categories. A search functionality to filter results on the basis of a movie's or show's name.",
         projectLink: "https://sumansourabh14.github.io/Movies-TV-Website/",
         githubLink: "https://github.com/Sumansourabh14/Movies-TV-Website"
     },
@@ -92,19 +93,29 @@ const projects = [
         alt: "Random Music Player website home page",
         projectName: "Random Music Player",
         technologies: "JavaScript, HTML, CSS",
-        description: "Developed a webpage using the Web Audio API in JavaScript.",
+        description: "Webpage that plays a random audio track with the Web Audio API of JavaScript. Includes the ability to pause & play the track, jump to any given point in the track.",
         projectLink: "https://sumansourabh14.github.io/Music-App/",
         githubLink: "https://github.com/Sumansourabh14/Music-App",
     },
+    // {
+    //     id: 3,
+    //     "imgSrc": img3,
+    //     alt: "Product landing page home page",
+    //     projectName: "Product Landing Page",
+    //     technologies: "HTML, CSS, JavaScript",
+    //     description: "A landing page with the help of HTML, CSS and a little bit of JavaScript.",
+    //     projectLink: "https://sumansourabh14.github.io/New-Landing-Page-with-HTML-CSS-JavaScript/",
+    //     githubLink: "https://github.com/Sumansourabh14/New-Landing-Page-with-HTML-CSS-JavaScript",
+    // },
     {
         id: 3,
-        "imgSrc": img3,
-        alt: "Product landing page home page",
-        projectName: "Product Landing Page",
-        technologies: "HTML, CSS, JavaScript",
-        description: "A landing page with the help of HTML, CSS and a little bit of JavaScript.",
-        projectLink: "https://sumansourabh14.github.io/New-Landing-Page-with-HTML-CSS-JavaScript/",
-        githubLink: "https://github.com/Sumansourabh14/New-Landing-Page-with-HTML-CSS-JavaScript",
+        "imgSrc": img4,
+        alt: "Random Advice Generator home page",
+        projectName: "Random Advice Generator",
+        technologies: "React, Tailwind CSS, Axios",
+        description: "A project that generates random advice with the click of a button using an advice API with the Axios library.",
+        projectLink: "https://sumansourabh14.github.io/Random-Advice-Generator/",
+        githubLink: "https://github.com/Sumansourabh14/Random-Advice-Generator",
     },
 ]
 
