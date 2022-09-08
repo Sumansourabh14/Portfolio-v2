@@ -93,7 +93,7 @@ const projects = [
         alt: "Random Music Player website home page",
         projectName: "Random Music Player",
         technologies: "JavaScript, HTML, CSS",
-        description: "Webpage that plays a random audio track with the Web Audio API of JavaScript. Includes the ability to pause & play the track, jump to any given point in the track.",
+        description: "Webpage that plays a random audio track with the HTMLMediaElement API. Includes the ability to pause & play the track, jump to any given point in the track.",
         projectLink: "https://sumansourabh14.github.io/Music-App/",
         githubLink: "https://github.com/Sumansourabh14/Music-App",
     },

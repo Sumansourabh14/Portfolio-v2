@@ -1,7 +1,7 @@
 import { faBarsStaggered, faCode, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import resume from "../Assets/Suman-Sourabh-Resume.pdf"
+import resume from "../Assets/Suman-Sourabh-Resume.pdf";
 
 export default function Navbar() {
 
