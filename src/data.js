@@ -2,7 +2,7 @@ import img1 from './Images/Movies-&-TV-website-ss1.png';
 import img2 from './Images/music-app-random.png';
 // import img3 from './Images/Landing-Page-Project-1.png';
 import img4 from './Images/random-advice-generator-v1.png';
-import { faCss3Alt, faFigma, faGitAlt, faHtml5, faJs, faMarkdown, faReact, faSass, faWordpress } from '@fortawesome/free-brands-svg-icons';
+import { faBootstrap, faCss3Alt, faFigma, faGitAlt, faHtml5, faJs, faMarkdown, faReact, faSass, faWordpress } from '@fortawesome/free-brands-svg-icons';
 
 const aboutMe = [
     {
@@ -31,46 +31,51 @@ const education = [
 const skills = [
     {
         id: 1,
-        name: "JavaScript",
-        icon: faJs,
-    },
-    {
-        id: 2,
-        name: "HTML",
-        icon: faHtml5,
-    },
-    {
-        id: 3,
-        name: "CSS",
-        icon: faCss3Alt,
-    },
-    {
-        id: 4,
-        name: "Git",
-        icon: faGitAlt,
-    },
-    {
-        id: 5,
-        name: "Markdown",
-        icon: faMarkdown,
-    },
-    {
-        id: 6,
         name: "React",
         icon: faReact,
     },
     {
+        id: 2,
+        name: "JavaScript",
+        icon: faJs,
+    },
+    {
+        id: 3,
+        name: "HTML",
+        icon: faHtml5,
+    },
+    {
+        id: 4,
+        name: "CSS",
+        icon: faCss3Alt,
+    },
+    {
+        id: 5,
+        name: "Bootstrap",
+        icon: faBootstrap,
+    },
+    {
+        id: 6,
+        name: "Git",
+        icon: faGitAlt,
+    },
+    {
         id: 7,
+        name: "Markdown",
+        icon: faMarkdown,
+    },
+    {
+        id: 8,
         name: "WordPress",
         icon: faWordpress,
     },
     {
-        id: 8,
+        id: 9,
         name: "Sass",
         icon: faSass,
     },
     {
-        id: 9,
+        id: 10,
         name: "Figma",
         icon: faFigma,
     },
