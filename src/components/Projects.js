@@ -1,3 +1,5 @@
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import projects from "../data";
 import LinkBtn from "./small-components/LinkBtn";
 
@@ -20,10 +22,12 @@ function Projects() {
                                     <div className="flex gap-4">
                                         <LinkBtn classes={"bg-slate-200 text-black font-bold px-6 py-2 rounded hover:bg-gray-400 duration:200"} 
                                         linkText="Open" 
-                                        link={project.projectLink} />
+                                        link={project.projectLink}
+                                        icon={faArrowUpRightFromSquare} />
                                         <LinkBtn classes={"bg-gray-700 px-6 py-2 rounded hover:bg-cyan-800 duration:200"}  
                                         linkText="Github" 
-                                        link={project.githubLink} />
+                                        link={project.githubLink}
+                                        icon={faGithub} />
                                     </div>
                                 </div>
                             </div>
