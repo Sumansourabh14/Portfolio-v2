@@ -8,7 +8,7 @@ function Projects() {
                 <div className="py-4">
                     <h2 className="text-3xl font-bold lg:text-5xl text-center lg:text-left">Personal Projects</h2>
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-8">
+                <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mt-8">
                     {projects.map(project => {
                         return (
                             <div key={project.id} className="flex flex-col shadow-2xl bg-gray-900 rounded md:hover:scale-105 md:hover:bg-stone-900 duration-200">
@@ -19,7 +19,7 @@ function Projects() {
                                     <p className="text-slate-300">{project.description}</p>
                                     <div className="flex gap-4">
                                         <LinkBtn classes={"bg-slate-200 text-black font-bold px-6 py-2 rounded hover:bg-gray-400 duration:200"} 
-                                        linkText="Project" 
+                                        linkText="Open" 
                                         link={project.projectLink} />
                                         <LinkBtn classes={"bg-gray-700 px-6 py-2 rounded hover:bg-cyan-800 duration:200"}  
                                         linkText="Github" 

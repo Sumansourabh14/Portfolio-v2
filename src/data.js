@@ -1,6 +1,6 @@
 import img1 from './Images/Movies-&-TV-website-ss1.png';
 import img2 from './Images/music-app-random.png';
-// import img3 from './Images/Landing-Page-Project-1.png';
+import img3 from './Images/apple-website-clone-hero-section.png';
 import img4 from './Images/random-advice-generator-v1.png';
 import { faBootstrap, faCss3Alt, faFigma, faGitAlt, faHtml5, faJs, faMarkdown, faReact, faSass, faWordpress } from '@fortawesome/free-brands-svg-icons';
 
@@ -92,8 +92,18 @@ const projects = [
         projectLink: "https://sumansourabh14.github.io/Movies-TV-Website/",
         githubLink: "https://github.com/Sumansourabh14/Movies-TV-Website"
     },
+    {
+        id: 2,
+        imgSrc: img3,
+        alt: "Apple Website Clone",
+        projectName: "Apple Website Clone",
+        technologies: "React, Tailwind CSS, daisyUI, Netlify",
+        description: "Homepage of Apple's official website consisting of a responsive navbar, grid layout, carousel, dynamic footer with accordion, etc",
+        projectLink: "https://apple-clone-suman-sourabh.netlify.app/",
+        githubLink: "https://github.com/Sumansourabh14/apple-website-clone-v1"
+    },
     {  
-        id: 2, 
+        id: 3, 
         imgSrc: img2,
         alt: "Random Music Player website home page",
         projectName: "Random Music Player",
@@ -113,7 +123,7 @@ const projects = [
     //     githubLink: "https://github.com/Sumansourabh14/New-Landing-Page-with-HTML-CSS-JavaScript",
     // },
     {
-        id: 3,
+        id: 4,
         "imgSrc": img4,
         alt: "Random Advice Generator home page",
         projectName: "Random Advice Generator",
