@@ -2,6 +2,7 @@ import img1 from './Images/Movies-&-TV-website-ss1.png';
 import img2 from './Images/music-app-random.png';
 import img3 from './Images/apple-website-clone-hero-section.png';
 import img4 from './Images/random-advice-generator-v1.png';
+import img5 from './Images/Krypto-Mockup.png';
 import { faBootstrap, faCss3Alt, faFigma, faGitAlt, faHtml5, faJs, faMarkdown, faReact, faSass, faWordpress } from '@fortawesome/free-brands-svg-icons';
 
 const aboutMe = [
@@ -102,8 +103,18 @@ const projects = [
         projectLink: "https://apple-clone-suman-sourabh.netlify.app/",
         githubLink: "https://github.com/Sumansourabh14/apple-website-clone-v1"
     },
+    {
+        id: 3,
+        imgSrc: img5,
+        alt: "Krypto - Modern UI/UX Website",
+        projectName: "Krypto - Modern UI/UX Website",
+        technologies: "React, Tailwind CSS, Figma",
+        description: "A responsive landing page designed with Figma and converted to a coded website utilizing React concepts such as components, props and state.",
+        projectLink: "https://krypto-website.netlify.app/",
+        githubLink: "https://github.com/Sumansourabh14/modern-ui-ux-website"
+    },
     {  
-        id: 3, 
+        id: 4, 
         imgSrc: img2,
         alt: "Random Music Player website home page",
         projectName: "Random Music Player",
@@ -112,18 +123,8 @@ const projects = [
         projectLink: "https://sumansourabh14.github.io/Music-App/",
         githubLink: "https://github.com/Sumansourabh14/Music-App",
     },
-    // {
-    //     id: 3,
-    //     "imgSrc": img3,
-    //     alt: "Product landing page home page",
-    //     projectName: "Product Landing Page",
-    //     technologies: "HTML, CSS, JavaScript",
-    //     description: "A landing page with the help of HTML, CSS and a little bit of JavaScript.",
-    //     projectLink: "https://sumansourabh14.github.io/New-Landing-Page-with-HTML-CSS-JavaScript/",
-    //     githubLink: "https://github.com/Sumansourabh14/New-Landing-Page-with-HTML-CSS-JavaScript",
-    // },
     {
-        id: 4,
+        id: 5,
         "imgSrc": img4,
         alt: "Random Advice Generator home page",
         projectName: "Random Advice Generator",
