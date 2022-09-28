@@ -3,6 +3,7 @@ import img2 from './Images/music-app-random.png';
 import img3 from './Images/apple-website-clone-hero-section.png';
 import img4 from './Images/random-advice-generator-v1.png';
 import img5 from './Images/Krypto-Mockup.png';
+import img6 from './Images/MovieDB-large-screens.png';
 import { faBootstrap, faCss3Alt, faFigma, faGitAlt, faHtml5, faJs, faMarkdown, faReact, faSass, faWordpress } from '@fortawesome/free-brands-svg-icons';
 
 const aboutMe = [
@@ -85,13 +86,13 @@ const skills = [
 const projects = [
     {
         id: 1,
-        imgSrc: img1,
-        alt: "Movies and TV Show website home page",
-        projectName: "Movies & TV Show Website with API",
-        technologies: "JavaScript, HTML, CSS",
-        description: "A website that uses the TMDB API to fetch all the movies and TV series on the basis of multiple categories. A search functionality to filter results on the basis of a movie's or show's name.",
-        projectLink: "https://sumansourabh14.github.io/Movies-TV-Website/",
-        githubLink: "https://github.com/Sumansourabh14/Movies-TV-Website"
+        imgSrc: img6,
+        alt: "MovieDB - Database for Movies",
+        projectName: "MovieDB - Database for Movies",
+        technologies: "React, Tailwind CSS, Firebase, Axios, TMDB API",
+        description: "With Firebase authentication, users can find the latest, top-rated and genre based movies plus their ratings, cast and reviews - all in a single website.",
+        projectLink: "https://movies-tv-db-react.web.app/",
+        githubLink: "https://github.com/Sumansourabh14/movie-database"
     },
     {
         id: 2,
@@ -113,8 +114,18 @@ const projects = [
         projectLink: "https://krypto-website.netlify.app/",
         githubLink: "https://github.com/Sumansourabh14/modern-ui-ux-website"
     },
+    {
+        id: 4,
+        imgSrc: img1,
+        alt: "Movies and TV Show website home page",
+        projectName: "Movies & TV Show Website with API",
+        technologies: "JavaScript, HTML, CSS",
+        description: "A website that uses the TMDB API to fetch all the movies and TV series on the basis of multiple categories. A search functionality to filter results on the basis of a movie's or show's name.",
+        projectLink: "https://sumansourabh14.github.io/Movies-TV-Website/",
+        githubLink: "https://github.com/Sumansourabh14/Movies-TV-Website"
+    },
     {  
-        id: 4, 
+        id: 5, 
         imgSrc: img2,
         alt: "Random Music Player website home page",
         projectName: "Random Music Player",
@@ -124,7 +135,7 @@ const projects = [
         githubLink: "https://github.com/Sumansourabh14/Music-App",
     },
     {
-        id: 5,
+        id: 6,
         "imgSrc": img4,
         alt: "Random Advice Generator home page",
         projectName: "Random Advice Generator",
