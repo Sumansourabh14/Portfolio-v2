@@ -25,8 +25,8 @@ export default function Hero() {
             <SocialMediaIcons />
             <LinkBtn
               link={resume}
-              linkText="Check out my resume"
-              classes="mx-auto lg:mx-0 bg-slate-900 rounded shadow-xl px-8 py-4 w-60 hover:bg-sky-800 hover:scale-105 duration-200"
+              linkText="Download Resume"
+              classes="mx-auto lg:mx-0 bg-slate-900 rounded shadow-xl px-8 py-4 w-52 hover:bg-sky-800 hover:scale-105 duration-200"
             />
           </div>
         </div>

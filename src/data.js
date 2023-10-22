@@ -9,7 +9,7 @@ import {
   faReact,
   faWordpress,
 } from "@fortawesome/free-brands-svg-icons";
-import img5 from "./Images/Krypto-Mockup.png";
+import img1 from "./Images/libertas-home-page.png";
 import img6 from "./Images/MovieDB-large-screens.png";
 import img3 from "./Images/apple-website-clone-hero-section.png";
 
@@ -88,6 +88,18 @@ const skills = [
 const projects = [
   {
     id: 1,
+    imgSrc: img1,
+    alt: "Libertas - Online Discussion Platform",
+    projectName: "Libertas - Online Discussion Platform",
+    technologies:
+      "Next.js 13, Material UI, Node.js, Express, MongoDB, Firebase, JWT",
+    description:
+      "Libertas is an online discussion platform where users can create posts, engage with them by upvoting or downvoting and by adding comments",
+    projectLink: "https://libertas-vert.vercel.app/",
+    githubLink: "https://github.com/Sumansourabh14/libertas-frontend",
+  },
+  {
+    id: 2,
     imgSrc: img6,
     alt: "MovieDB - Database for Movies",
     projectName: "MovieDB - Database for Movies",
@@ -98,7 +110,7 @@ const projects = [
     githubLink: "https://github.com/Sumansourabh14/movie-database",
   },
   {
-    id: 2,
+    id: 3,
     imgSrc: img3,
     alt: "Apple Website Clone",
     projectName: "Apple Website Clone",
@@ -107,17 +119,6 @@ const projects = [
       "Homepage of Apple's official website consisting of a responsive navbar, grid layout, carousel, dynamic footer with accordion, etc",
     projectLink: "https://apple-clone-suman-sourabh.netlify.app/",
     githubLink: "https://github.com/Sumansourabh14/apple-website-clone-v1",
-  },
-  {
-    id: 3,
-    imgSrc: img5,
-    alt: "Krypto - Modern UI/UX Website",
-    projectName: "Krypto - Modern UI/UX Website",
-    technologies: "React, Tailwind CSS, Figma",
-    description:
-      "A responsive landing page designed with Figma and converted to a coded website utilizing React concepts such as components, props and state.",
-    projectLink: "https://krypto-website.netlify.app/",
-    githubLink: "https://github.com/Sumansourabh14/modern-ui-ux-website",
   },
 ];
 

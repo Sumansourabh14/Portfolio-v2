@@ -15,8 +15,6 @@ function About() {
               <strong className="text-cyan-400">Suman Sourabh</strong> and I
               like to <span className="text-cyan-400">design</span> and{" "}
               <span className="text-cyan-400">build</span> things for the web.
-              <br />I am looking for an opportunity to showcase my skills as a
-              web developer.
             </p>
             <h3 className="text-xl md:text-2xl lg:text-3xl font-semibold">
               Education
