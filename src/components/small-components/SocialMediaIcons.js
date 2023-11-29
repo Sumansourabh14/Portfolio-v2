@@ -3,12 +3,12 @@ import { socialMediaItems } from "../../utils/social-media-items";
 
 export default function SocialMediaIcons() {
   return (
-    <div className="flex gap-4 lg:gap-6 justify-center lg:justify-start">
+    <div className="flex gap-4 justify-center">
       {socialMediaItems.map((item) => (
         <a key={item.id} href={item.link}>
           <FontAwesomeIcon
             icon={item.icon}
-            className="text-2xl lg:text-3xl hover:text-stone-400 duration-300"
+            className="text-xl lg:text-2xl hover:text-stone-400 duration-200"
           />
         </a>
       ))}

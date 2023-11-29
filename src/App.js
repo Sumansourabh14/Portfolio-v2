@@ -10,7 +10,7 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <main id="home" className="text-white bg-gray-800">
+    <main id="home" className="text-black">
       <Navbar />
       <Hero />
       <Work />
