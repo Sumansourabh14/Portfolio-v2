@@ -34,7 +34,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="px-12 py-4 fixed left-0 right-0 mx-auto bg-black text-white shadow-2xl z-50 md:backdrop-blur-lg md:bg-opacity-40">
+    <header className="px-12 py-4 fixed left-0 right-0 mx-auto bg-black text-white shadow-2xl z-50 md:backdrop-blur-md md:bg-opacity-70">
       <nav className="container mx-auto flex justify-between items-center">
         <div className="text-xl w-44">
           <a href="http://localhost:3000">Suman Sourabh</a>

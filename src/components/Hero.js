@@ -7,7 +7,7 @@ import resume from "../Assets/Suman-Sourabh-Full-Stack-Developer-Resume.pdf";
 export default function Hero() {
   return (
     <section id="hero" className="flex justify-center items-center">
-      <div className="container mx-auto px-12 py-44">
+      <div className="container mx-auto px-12 py-36 xl:py-44">
         <div className="text-center flex flex-col lg:justify-center">
           <div className="flex flex-col gap-6 my-auto">
             <div>
