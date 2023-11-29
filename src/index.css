@@ -9,7 +9,7 @@ html {
 }
 
 /* Customizing scrollbar */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0.7em;
 }
 
@@ -20,7 +20,7 @@ html {
 ::-webkit-scrollbar-thumb {
   background: rgb(170, 170, 170);
   border-radius: 1rem;
-}
+} */
 
 /* Animation - only on load */
 /* section {
@@ -39,12 +39,12 @@ html {
 } */
 
 /* To support the scrollbar styling on firefox browser as well */
-@supports (scrollbar-color: rgb(170, 170, 170) rgb(25, 31, 48) ) {
+/* @supports (scrollbar-color: rgb(170, 170, 170) rgb(25, 31, 48) ) {
   * {
     scrollbar-color: rgb(170, 170, 170) rgb(25, 31, 48);
     scrollbar-width: auto;
   }
-}
+} */
 
 body {
   margin: 0;
