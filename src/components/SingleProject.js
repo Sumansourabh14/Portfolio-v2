@@ -9,8 +9,8 @@ export const SingleProject = ({ project, direction }) => {
     <div
       key={project.id}
       className={
-        "flex items-center hover:rounded hover:bg-black hover:bg-opacity-5 hover:shadow-[0_1px_inset_rgba(1,1,1,0.1)] duration-200 p-4 gap-8 " +
-        (direction === "reverse" ? "flex-row-reverse" : "flex-row")
+        "flex flex-col items-center hover:rounded hover:bg-black hover:bg-opacity-5 hover:shadow-[0_1px_inset_rgba(1,1,1,0.1)] duration-200 p-4 gap-2 lg:gap-8 " +
+        (direction === "reverse" ? "lg:flex-row-reverse" : "lg:flex-row")
       }
     >
       <div className="flex-1">
