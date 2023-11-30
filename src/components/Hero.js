@@ -16,7 +16,7 @@ export default function Hero() {
                 Suman Sourabh
               </h1>
               <h2 className="lg:text-xl mt-4 text-zinc-700">
-                Full Stack Web Developer
+                Full Stack Web Developer | Technical Writer
               </h2>
             </div>
             <SocialMediaIcons />

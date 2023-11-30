@@ -13,10 +13,10 @@ function App() {
     <main id="home" className="text-black">
       <Navbar />
       <Hero />
+      <Skills />
       <Work />
       <Projects />
       <About />
-      <Skills />
       <hr className="opacity-30" />
       <Contact />
       <Footer />
