@@ -14,9 +14,9 @@ function App() {
       <Navbar />
       <Hero />
       <Work />
+      <Projects />
       <About />
       <Skills />
-      <Projects />
       <hr className="opacity-30" />
       <Contact />
       <Footer />

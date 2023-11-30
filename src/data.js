@@ -91,8 +91,15 @@ const projects = [
     imgSrc: img1,
     alt: "Libertas - Online Discussion Platform",
     projectName: "Libertas - Online Discussion Platform",
-    technologies:
-      "Next.js 13, Material UI, Node.js, Express, MongoDB, Firebase, JWT",
+    technologies: [
+      "Next.js 13",
+      "Material UI",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Firebase",
+      "JWT",
+    ],
     description:
       "Libertas is an online discussion platform where users can create posts, engage with them by upvoting or downvoting and by adding comments",
     projectLink: "https://libertas-vert.vercel.app/",
@@ -103,7 +110,7 @@ const projects = [
     imgSrc: img6,
     alt: "MovieDB - Database for Movies",
     projectName: "MovieDB - Database for Movies",
-    technologies: "React, Tailwind CSS, Firebase, Axios, TMDB API",
+    technologies: ["React", "Tailwind CSS", "Firebase", "Axios", "TMDB API"],
     description:
       "With Firebase authentication, users can find the latest, top-rated and genre based movies plus their ratings, cast and reviews - all in a single website.",
     projectLink: "https://movies-tv-db-react.web.app/",
@@ -114,7 +121,7 @@ const projects = [
     imgSrc: img3,
     alt: "Apple Website Clone",
     projectName: "Apple Website Clone",
-    technologies: "React, Tailwind CSS, daisyUI, Netlify",
+    technologies: ["React", "Tailwind CSS", "daisyUI", "Netlify"],
     description:
       "Homepage of Apple's official website consisting of a responsive navbar, grid layout, carousel, dynamic footer with accordion, etc",
     projectLink: "https://apple-clone-suman-sourabh.netlify.app/",
