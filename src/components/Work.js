@@ -4,7 +4,7 @@ import TechnologiesSection from "./small-components/TechnologiesSection";
 
 const Work = () => {
   return (
-    <section id="about" className="bg-zinc-900 ">
+    <section id="work" className="bg-zinc-900 ">
       <div className="container mx-auto px-12 py-40">
         <h2 className="text-3xl lg:text-5xl font-bold text-center pb-12 text-white">
           Professional Experience

@@ -52,10 +52,7 @@ export default function Navbar() {
                 key={navbarElement.id}
                 className="hover:md:translate-y-1 duration-100"
               >
-                <a
-                  className="hover:text-black duration-100"
-                  href={navbarElement.link}
-                >
+                <a className="duration-100" href={navbarElement.link}>
                   {navbarElement.liName}
                 </a>
               </li>
