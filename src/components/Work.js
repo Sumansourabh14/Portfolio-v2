@@ -31,9 +31,12 @@ const Work = () => {
                   {work.organization}
                 </a>
                 {!!work.technologies && (
-                  <ul className="flex gap-1 flex-wrap pt-2">
+                  <ul className="flex gap-1 flex-wrap pt-2 font-mono uppercase">
                     {work.technologies.map((technology, index) => (
-                      <li key={index} className="px-4 border">
+                      <li
+                        key={index}
+                        className="px-4 border-[1px] border-zinc-500"
+                      >
                         {technology}
                       </li>
                     ))}
