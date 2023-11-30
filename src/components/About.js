@@ -9,12 +9,22 @@ function About() {
           About Me
         </h2>
         <div className="text-center lg:text-left flex flex-col lg:flex-row gap-16">
-          <div className="flex flex-col gap-6">
-            <p className="mt-8 text-center lg:text-left text-slate-300">
-              My name is{" "}
-              <strong className="text-zinc-100">Suman Sourabh</strong> and I
-              like to <span className="text-zinc-100">design</span> and{" "}
-              <span className="text-zinc-100">build</span> things for the web.
+          <div className="flex flex-col gap-6 text-slate-300 w-1/2">
+            <p className=" ">
+              Hi, my name is Suman Sourabh and I am from India. In 2022, I
+              joined ansrsource and hence, started my journey in the world of
+              web development. Since then, I have worked on various websites and
+              apps.
+            </p>
+            <p className=" ">
+              I also write technical articles for GeeksforGeeks and share
+              technical/non-technical blogs on Medium where I have garnered 400
+              followers.
+            </p>
+            <p className=" ">
+              In my free time, I love reading books (mainly fiction), writing my
+              thoughts on Medium, listening to Lo-fi music and watching
+              football.
             </p>
           </div>
           {/* <div>
