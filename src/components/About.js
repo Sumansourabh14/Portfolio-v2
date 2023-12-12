@@ -1,6 +1,3 @@
-import { education } from "../data";
-import myImage from "../Images/Suman-Sourabh.png";
-
 function About() {
   return (
     <section id="about" className="bg-zinc-900 text-white">

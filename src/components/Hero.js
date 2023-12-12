@@ -1,8 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
-import SocialMediaIcons from "./small-components/SocialMediaIcons";
-import LinkBtn from "./small-components/LinkBtn";
 import resume from "../Assets/Suman-Sourabh-Full-Stack-Developer-Resume.pdf";
+import LinkBtn from "./small-components/LinkBtn";
+import SocialMediaIcons from "./small-components/SocialMediaIcons";
 
 export default function Hero() {
   return (

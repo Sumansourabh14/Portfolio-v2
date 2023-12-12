@@ -1,7 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAnglesUp } from "@fortawesome/free-solid-svg-icons";
-import SocialMediaIcons from "./small-components/SocialMediaIcons";
-
 export default function Contact() {
   return (
     <section id="contact">
