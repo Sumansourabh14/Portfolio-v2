@@ -14,6 +14,7 @@ function Projects() {
           {projects.map((project, index) => {
             return (
               <SingleProject
+                key={project.id}
                 project={project}
                 direction={index % 2 === 0 ? "" : "reverse"}
               />

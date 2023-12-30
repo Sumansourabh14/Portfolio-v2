@@ -13,9 +13,9 @@ export const workExperience = [
       "Material UI",
     ],
     description: [
-      "Created a learning platform with Next.js by adding dynamic page routing, thereby reducing FCP by 25%.",
-      "Created Node.js application to implement a microservice that sends notifications to the mobile app users using Firebase.",
-      "Added features on the React Native mobile app and styled it using styled components",
+      "Created a learning platform with Next.js by adding dynamic page routing and Context API for state management, thereby reducing FCP by 25%.",
+      "Worked on Node.js application to implement a microservice that sends notifications to the mobile app users using Firebase.",
+      "Added features on an LMS mobile app built with React Native and styled it using styled components",
     ],
     linkedIn: "https://www.linkedin.com/company/ansrsource/",
   },

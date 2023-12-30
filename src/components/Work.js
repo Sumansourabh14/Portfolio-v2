@@ -13,7 +13,7 @@ const Work = () => {
           {workExperience.map((work) => (
             <div
               key={work.id}
-              className="flex gap-8 items-start p-4 flex-1 hover:bg-white hover:rounded-lg hover:bg-opacity-5 hover:shadow-[0_1px_inset_rgba(255,255,255,0.1)] duration-100"
+              className="flex flex-col sm:flex-row gap-8 items-start p-4 flex-1 hover:bg-white hover:rounded-lg hover:bg-opacity-5 hover:shadow-[0_1px_inset_rgba(255,255,255,0.1)] duration-100"
             >
               <div className="flex flex-col gap-2 flex-shrink-0 pt-1">
                 <div className="text-sm uppercase">{work.duration}</div>

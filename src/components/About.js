@@ -5,8 +5,8 @@ function About() {
         <h2 className="text-3xl lg:text-5xl font-bold text-center pb-12">
           About Me
         </h2>
-        <div className="text-center lg:text-left flex flex-col lg:flex-row gap-16">
-          <div className="flex flex-col gap-6 text-slate-300 w-1/2">
+        <div className="lg:text-left flex flex-col lg:flex-row gap-16">
+          <div className="flex flex-col gap-6 text-slate-300 sm:w-1/2">
             <p className=" ">
               Hi, my name is Suman Sourabh and I am from India. In 2022, I
               joined ansrsource and hence, started my journey in the world of

@@ -37,13 +37,13 @@ export default function Navbar() {
     <header className="px-12 py-4 fixed left-0 right-0 mx-auto bg-black text-white shadow-2xl z-50 md:backdrop-blur-md md:bg-opacity-70">
       <nav className="container mx-auto flex justify-between items-center">
         <div className="text-xl w-44">
-          <a href="http://localhost:3000">Suman Sourabh</a>
+          <a href="https://sumansourabh.netlify.app/">SS</a>
         </div>
 
         <ul
           className={
             (responsiveNavbar ? "left-0" : "-left-full") +
-            " fixed bottom-0 top-20 bg-zinc-900 bg-opacity-95 md:bg-transparent w-10/12 px-4 py-6 md:py-0 space-y-5 md:static md:flex md:space-y-0 md:gap-8 justify-center text-md xl:text-lg transition-left duration-200"
+            " fixed bottom-0 top-[70px] bg-zinc-900 bg-opacity-95 md:bg-transparent w-10/12 px-4 py-6 md:py-0 space-y-5 md:static md:flex md:space-y-0 md:gap-8 justify-center text-md xl:text-lg transition-left duration-200"
           }
         >
           {navbar.map((navbarElement) => {

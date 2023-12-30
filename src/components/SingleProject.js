@@ -17,16 +17,16 @@ export const SingleProject = ({ project, direction }) => {
         <img src={project.imgSrc} alt={project.alt} />
       </div>
       <div className="flex-1">
-        <div className="px-8 py-10 flex flex-col gap-4">
+        <div className="px-0 md:px-8 py-10 flex flex-col gap-4">
           <h3 className="text-2xl font-semibold">{project.projectName}</h3>
           {!!project.technologies && (
             <TechnologiesSection technologies={project.technologies} />
           )}
           <p className="">{project.description}</p>
-          <div className="flex gap-4">
+          <div className="flex gap-4 flex-col sm:flex-row">
             <LinkBtn
               classes={
-                "bg-black hover:bg-zinc-600 text-white font-bold px-6 py-2 duration:200"
+                "bg-black hover:bg-zinc-600 text-white font-bold px-6 py-2 duration:200 text-center"
               }
               linkText="Open"
               link={project.projectLink}
@@ -34,7 +34,7 @@ export const SingleProject = ({ project, direction }) => {
             />
             <LinkBtn
               classes={
-                "border hover:bg-zinc-400 text-black px-6 py-2 duration:200"
+                "border hover:bg-zinc-400 text-black px-6 py-2 duration:200 text-center"
               }
               linkText="Github"
               link={project.githubLink}
