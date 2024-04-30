@@ -19,7 +19,7 @@ export default function Hero() {
             </div>
             <SocialMediaIcons />
             <LinkBtn
-              link={resume}
+              link={`https://pdflink.to/564d4738/`}
               linkText="Check Out Resume"
               classes="mx-auto bg-black text-white tracking-wide font-medium shadow-xl px-12 py-4 hover:bg-zinc-700 duration-200"
             />
