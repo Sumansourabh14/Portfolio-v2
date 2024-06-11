@@ -9,15 +9,29 @@ function Skills() {
           <li className="rounded bg-white flex flex-col items-center gap-8 py-4 px-8 bg-opacity-5 shadow-[0_1px_inset_rgba(255,255,255,0.1)] duration-200">
             <h3 className="text-xl font-semibold">Web Development</h3>
             <p className="font-light">
-              Building websites with 1.2 years of experience. Skilled in
+              Building websites with 1.9 years of experience. Skilled in
               Next.js, React, Node.js, HTML, CSS, Material UI, Tailwind CSS
             </p>
           </li>
           <li className="rounded bg-white flex flex-col items-center gap-8 py-4 px-8 bg-opacity-5 shadow-[0_1px_inset_rgba(255,255,255,0.1)] duration-200">
             <h3 className="text-xl font-semibold">Writing Blogs/Articles</h3>
             <p className="font-light">
-              More than 6 months of experience in writing blogs/articles on
+              More than 8 months of experience in writing blogs/articles on
               technical as well as non-technical topics. Some of my work is on{" "}
+              <a
+                href="https://auth.geeksforgeeks.org/user/sumsourabh14/articles?utm_source=geeksforgeeks&utm_medium=article_author&utm_campaign=auth_user"
+                className="underline"
+              >
+                GeeksforGeeks
+              </a>
+              ,{" "}
+              <a
+                href="https://community.theta360.guide/t/ricoh-theta-client-react-native-demo-for-android/9739"
+                className="underline"
+              >
+                theta360
+              </a>
+              ,{" "}
               <a href="https://medium.com/@sumsourabh14" className="underline">
                 Medium
               </a>{" "}

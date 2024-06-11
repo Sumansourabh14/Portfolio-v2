@@ -1,16 +1,18 @@
 export const workExperience = [
   {
     id: "1",
-    position: "Junior Full Stack Developer",
+    position: "Junior Frontend Developer",
     organization: "ansrsource",
     duration: "Oct 2022 - Present",
     type: "Full Time",
     technologies: [
       "Next.js",
       "React",
-      "Node.js",
       "React Native",
       "Material UI",
+      "WordPress",
+      "Node.js",
+      "Express",
     ],
     description: [
       "Created a learning platform with Next.js by adding dynamic page routing and Context API for state management, thereby reducing FCP by 25%.",

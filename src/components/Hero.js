@@ -1,4 +1,3 @@
-import resume from "../Assets/Suman-Sourabh-Full-Stack-Developer-Resume.pdf";
 import LinkBtn from "./small-components/LinkBtn";
 import SocialMediaIcons from "./small-components/SocialMediaIcons";
 
@@ -14,7 +13,7 @@ export default function Hero() {
                 Suman Sourabh
               </h1>
               <h2 className="lg:text-xl mt-4 text-zinc-700">
-                Full Stack Web Developer | Technical Writer
+                Frontend Web Developer | Freelance Technical Writer
               </h2>
             </div>
             <SocialMediaIcons />
