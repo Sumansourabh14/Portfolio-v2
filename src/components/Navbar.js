@@ -1,7 +1,6 @@
 import { faBarsStaggered, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import resume from "../Assets/Suman-Sourabh-Full-Stack-Developer-Resume.pdf";
 
 export default function Navbar() {
   const [responsiveNavbar, setResponsiveNavbar] = useState(false);

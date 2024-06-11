@@ -14,6 +14,7 @@ const Testimonials = () => {
               <a
                 href="https://community.theta360.guide/t/ricoh-theta-client-react-native-demo-for-android/9739"
                 target="_blank"
+                rel="noreferrer"
                 className="underline"
               >
                 a technical article for the RICOH THETA

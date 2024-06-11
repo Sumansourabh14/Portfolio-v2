@@ -18,6 +18,7 @@ function About() {
               <a
                 href="https://auth.geeksforgeeks.org/user/sumsourabh14/articles?utm_source=geeksforgeeks&utm_medium=article_author&utm_campaign=auth_user"
                 target="_blank"
+                rel="noreferrer"
                 className="underline"
               >
                 technical articles for GeeksforGeeks
