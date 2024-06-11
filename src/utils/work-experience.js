@@ -28,7 +28,8 @@ export const workExperience = [
     duration: "Nov 2023 - Present",
     type: "Freelance",
     description: [
-      "Writing technical blogs/articles on various topics in React and web development.",
+      "Writing technical blogs/articles on various topics around web development, such as React, related libraries and frameworks.",
+      "Adding relevant code samples and screenshots in an easy-to-read format for the readers.",
       "Optimizing written content for SEO by performing strong keyword research.",
     ],
     linkedIn: "https://www.linkedin.com/company/geeksforgeeks/",

@@ -88,6 +88,18 @@ const skills = [
 const projects = [
   {
     id: 1,
+    imgSrc:
+      "https://lh7-us.googleusercontent.com/vpLARbojcAYyoeT7kFT9FgRfL1AWbX5vgj7ElQxb-Zq3Rlwn7UbO8QDc3M9zUGRtjONnlmSzjXin4G4hJSURZuXMJogAR95KJvzB2m9FbcRE18RbJ1clSgrWjhqLXhr-26Ex2iFS2GC1mHgnvrACJYg",
+    alt: "RICOH THETA Client React Native Demo for Android",
+    projectName: "Guide - RICOH THETA Client React Native Demo for Android",
+    technologies: ["React Native"],
+    description:
+      "Technical guide on how to set up the theta-client SDK with React Native on your system with the help of an Android emulator and some of the modifications to the code",
+    projectLink:
+      "https://community.theta360.guide/t/ricoh-theta-client-react-native-demo-for-android/9739",
+  },
+  {
+    id: 2,
     imgSrc: img1,
     alt: "Libertas - Online Discussion Platform",
     projectName: "Libertas - Online Discussion Platform",
@@ -106,7 +118,7 @@ const projects = [
     githubLink: "https://github.com/Sumansourabh14/libertas-frontend",
   },
   {
-    id: 2,
+    id: 3,
     imgSrc: img6,
     alt: "MovieDB - Database for Movies",
     projectName: "MovieDB - Database for Movies",
@@ -117,7 +129,7 @@ const projects = [
     githubLink: "https://github.com/Sumansourabh14/movie-database",
   },
   {
-    id: 3,
+    id: 4,
     imgSrc: img3,
     alt: "Apple Website Clone",
     projectName: "Apple Website Clone",

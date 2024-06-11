@@ -32,14 +32,16 @@ export const SingleProject = ({ project, direction }) => {
               link={project.projectLink}
               icon={faArrowUpRightFromSquare}
             />
-            <LinkBtn
-              classes={
-                "border hover:bg-zinc-400 text-black px-6 py-2 duration:200 text-center"
-              }
-              linkText="Github"
-              link={project.githubLink}
-              icon={faGithub}
-            />
+            {!!project.githubLink && (
+              <LinkBtn
+                classes={
+                  "border hover:bg-zinc-400 text-black px-6 py-2 duration:200 text-center"
+                }
+                linkText="Github"
+                link={project.githubLink}
+                icon={faGithub}
+              />
+            )}
           </div>
         </div>
       </div>
