@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Work from "./components/Work";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Projects />
       <About />
       <hr className="opacity-30" />
+      <Testimonials />
       <Contact />
       <Footer />
     </main>

@@ -14,9 +14,16 @@ function About() {
               apps.
             </p>
             <p className=" ">
-              I also write technical articles for GeeksforGeeks and share
-              technical/non-technical blogs on Medium where I have garnered 400
-              followers.
+              I also write{" "}
+              <a
+                href="https://auth.geeksforgeeks.org/user/sumsourabh14/articles?utm_source=geeksforgeeks&utm_medium=article_author&utm_campaign=auth_user"
+                target="_blank"
+                className="underline"
+              >
+                technical articles for GeeksforGeeks
+              </a>{" "}
+              and share technical blogs on Medium (700+ followers), Dev.to, and
+              Hashnode.
             </p>
             <p className=" ">
               In my free time, I love reading books (mainly fiction), writing my

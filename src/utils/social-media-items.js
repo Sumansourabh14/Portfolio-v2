@@ -22,7 +22,7 @@ export const socialMediaItems = [
     id: "twitter",
     name: "Twitter",
     icon: faTwitter,
-    link: "https://twitter.com/sumansourabhdev",
+    link: "https://x.com/sumansourabh48",
   },
   {
     id: "medium",

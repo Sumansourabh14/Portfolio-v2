@@ -31,7 +31,7 @@ export default function Contact() {
               </a>{" "}
               or{" "}
               <a
-                href="https://twitter.com/sumansourabhdev"
+                href="https://x.com/sumansourabh48"
                 className="underline"
                 target="_blank"
                 rel="noreferrer"
