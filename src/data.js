@@ -87,16 +87,24 @@ const skills = [
 
 const projects = [
   {
-    id: 1,
+    id: 145458,
     imgSrc:
-      "https://lh7-us.googleusercontent.com/vpLARbojcAYyoeT7kFT9FgRfL1AWbX5vgj7ElQxb-Zq3Rlwn7UbO8QDc3M9zUGRtjONnlmSzjXin4G4hJSURZuXMJogAR95KJvzB2m9FbcRE18RbJ1clSgrWjhqLXhr-26Ex2iFS2GC1mHgnvrACJYg",
-    alt: "RICOH THETA Client React Native Demo for Android",
-    projectName: "Guide - RICOH THETA Client React Native Demo for Android",
-    technologies: ["React Native"],
+      "https://raw.githubusercontent.com/Sumansourabh14/road-story/refs/heads/main/public/images/image-1.png",
+    alt: "Road Storyy web platform",
+    projectName: "Road Storyy",
+    technologies: [
+      "Next.js 15",
+      "shadcn/ui",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Supabase",
+      "React Redux",
+      "JWT",
+    ],
     description:
-      "Technical guide on how to set up the theta-client SDK with React Native on your system with the help of an Android emulator and some of the modifications to the code",
-    projectLink:
-      "https://community.theta360.guide/t/ricoh-theta-client-react-native-demo-for-android/9739",
+      "A road safety focused web community platform. Users can upload any dashcam, CCTV or normal video on road safety to spread awareness.",
+    projectLink: "https://road-story.vercel.app/",
   },
   {
     id: 2,
@@ -138,6 +146,18 @@ const projects = [
       "Homepage of Apple's official website consisting of a responsive navbar, grid layout, carousel, dynamic footer with accordion, etc",
     projectLink: "https://apple-clone-suman-sourabh.netlify.app/",
     githubLink: "https://github.com/Sumansourabh14/apple-website-clone-v1",
+  },
+  {
+    id: 1,
+    imgSrc:
+      "https://lh7-us.googleusercontent.com/vpLARbojcAYyoeT7kFT9FgRfL1AWbX5vgj7ElQxb-Zq3Rlwn7UbO8QDc3M9zUGRtjONnlmSzjXin4G4hJSURZuXMJogAR95KJvzB2m9FbcRE18RbJ1clSgrWjhqLXhr-26Ex2iFS2GC1mHgnvrACJYg",
+    alt: "RICOH THETA Client React Native Demo for Android",
+    projectName: "Guide - RICOH THETA Client React Native Demo for Android",
+    technologies: ["React Native"],
+    description:
+      "Technical guide on how to set up the theta-client SDK with React Native on your system with the help of an Android emulator and some of the modifications to the code",
+    projectLink:
+      "https://community.theta360.guide/t/ricoh-theta-client-react-native-demo-for-android/9739",
   },
 ];
 
