@@ -105,6 +105,7 @@ const projects = [
     description:
       "A road safety focused web community platform. Users can upload any dashcam, CCTV or normal video on road safety to spread awareness.",
     projectLink: "https://road-story.vercel.app/",
+    githubLink: "https://github.com/Sumansourabh14/road-story",
   },
   {
     id: 2,
