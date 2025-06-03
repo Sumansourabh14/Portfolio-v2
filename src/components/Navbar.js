@@ -61,7 +61,7 @@ export default function Navbar() {
 
         <div className="flex gap-8 items-center">
           <a
-            href={`https://drive.google.com/file/d/1HFnuqN6gj2XbdPmTlnOxsd6G78q8SoMR/view?usp=sharing`}
+            href={`https://drive.google.com/file/d/1cmxfEZuxinO3skWs6PSXuwF516YpdeT2/view?usp=sharing`}
             alt="Suman Sourabh Resume"
             target="blank"
             className="px-8 py-2 border hover:rounded-lg hover:bg-zinc-700 duration-200"
