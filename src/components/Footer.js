@@ -14,10 +14,7 @@ export default function Footer() {
         </div>
         <hr className="opacity-30" />
         <p className="text-sm text-gray-300">
-          Made with{" "}
-          <a href="https://reactjs.org/">
-            <FontAwesomeIcon icon={faReact} /> (React)
-          </a>
+          Made with <FontAwesomeIcon icon={faReact} /> (React)
         </p>
       </div>
     </footer>

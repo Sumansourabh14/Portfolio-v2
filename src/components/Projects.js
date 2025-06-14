@@ -4,10 +4,10 @@ import { SingleProject } from "./SingleProject";
 function Projects() {
   return (
     <section id="projects">
-      <div className="container mx-auto px-12 py-40">
+      <div className="container mx-auto px-12 py-20">
         <div className="py-4">
           <h2 className="text-3xl font-bold lg:text-5xl text-center pb-12">
-            My Work
+            My Personal Projects
           </h2>
         </div>
         <div className="flex flex-col gap-8 xl:gap-20">

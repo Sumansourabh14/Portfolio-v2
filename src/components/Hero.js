@@ -13,8 +13,11 @@ export default function Hero() {
                 Suman Sourabh
               </h1>
               <h2 className="lg:text-xl mt-4 text-zinc-700">
-                Frontend Web Developer | Freelance Technical Writer
+                Full Stack Developer
               </h2>
+              <p className="my-4 font-bold text-yellow-800">
+                * Urgently Looking for Frontend Dev/Full Stack Dev roles
+              </p>
             </div>
             <SocialMediaIcons />
             <LinkBtn

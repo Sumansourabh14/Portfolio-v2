@@ -1,7 +1,7 @@
 function About() {
   return (
     <section id="about" className="bg-zinc-900 text-white">
-      <div className="container mx-auto px-12 py-40">
+      <div className="container mx-auto px-12 py-32">
         <h2 className="text-3xl lg:text-5xl font-bold text-center pb-12">
           About Me
         </h2>
@@ -13,8 +13,11 @@ function About() {
               web development. Since then, I have worked on various websites and
               apps.
             </p>
+            <p className="text-yellow-500">
+              Looking for a Frontend/Full Stack Developer role.
+            </p>
             <p className=" ">
-              I also write{" "}
+              I have also written{" "}
               <a
                 href="https://auth.geeksforgeeks.org/user/sumsourabh14/articles?utm_source=geeksforgeeks&utm_medium=article_author&utm_campaign=auth_user"
                 target="_blank"
@@ -23,8 +26,8 @@ function About() {
               >
                 technical articles for GeeksforGeeks
               </a>{" "}
-              and share technical blogs on Medium (700+ followers), Dev.to, and
-              Hashnode.
+              and currently, share technical blogs on Medium (1,200+ followers),
+              Dev.to, and Hashnode.
             </p>
             <p className=" ">
               In my free time, I love reading books (mainly fiction), writing my

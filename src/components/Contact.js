@@ -1,12 +1,15 @@
 export default function Contact() {
   return (
     <section id="contact">
-      <div className="container mx-auto px-12 py-40 gap-10">
+      <div className="container mx-auto px-12 py-24 gap-10">
         <div className="flex flex-col gap-10 text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold lg:text-5xl">Contact Me</h2>
           <p className="text-zinc-700">
-            If you like my work or want to hire me, please feel free to shoot me
-            an email on{" "}
+            I am{" "}
+            <span className="text-red-600 font-bold">
+              urgently looking for a Frontend Dev/Full Stack Dev
+            </span>{" "}
+            role, please feel free to shoot me an email on{" "}
             <span className="underline">sumsourabh14@gmail.com</span> by
             pressing the button below.
           </p>
