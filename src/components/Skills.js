@@ -7,11 +7,13 @@ function Skills() {
         </h2>
         <ul className="grid gap-8 grid-cols-1 md:grid-cols-2">
           <li className="rounded bg-white flex flex-col items-center gap-8 py-4 px-8 bg-opacity-5 shadow-[0_1px_inset_rgba(255,255,255,0.1)] duration-200">
-            <h3 className="text-xl font-semibold">Web Development</h3>
+            <h3 className="text-xl font-semibold">
+              Web/Mobile App Development
+            </h3>
             <p className="font-light">
               Building highly performant websites with 2.9 years of experience.
-              Skilled in Next.js, React, Node.js, HTML, CSS, Material UI,
-              Tailwind CSS
+              Skilled in Next.js, React, React Native, Node.js, HTML, CSS,
+              Material UI, Tailwind CSS
             </p>
           </li>
           <li className="rounded bg-white flex flex-col items-center gap-8 py-4 px-8 bg-opacity-5 shadow-[0_1px_inset_rgba(255,255,255,0.1)] duration-200">
