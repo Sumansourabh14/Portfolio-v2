@@ -16,7 +16,7 @@ export const workExperience = [
       "HTML5/CSS3",
     ],
     description: [
-      "Developed a scalable, responsive Learning Management System (LMS) using Next.js and the Rzeact Context API for efficient state management, implementing dynamic page routing, JWT-based authentication, and infinite scrolling to support 250+ active users across 200+ courses.",
+      "Developed a scalable, responsive Learning Management System (LMS) using Next.js and the React Context API for efficient state management, implementing dynamic page routing, JWT-based authentication, and infinite scrolling to support 250+ active users across 200+ courses.",
       "Built a modular accessibility platform with Next.js, featuring role-based access control and OAuth 2.0 authentication, streamlining onboarding and integration of three distinct LMS platforms through unified API endpoints. ",
       "Led the modernization of an LMS mobile app by upgrading Expo (v47 → v50) and React Native (v0.70 → v0.73.6), cutting app crash rates by 15% and improving overall app performance by 25%, with successful Play Store and App Store deployments reaching 500+ downloads.",
       "Engineered a dynamic course authoring interface in Next.js with real-time preview capabilities and customizable theme switching, enabling instructors to design and publish learning content more efficiently.",
